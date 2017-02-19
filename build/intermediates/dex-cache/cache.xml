@@ -2,184 +2,166 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fada63ed7f79c05bb29a0855f7d2176362356615">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3fc2b0f43501c76e132f0641c135794d16894922\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_3820b6a7a5915ed61d9238adbe2c97277f8dc0a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_50a3c013bb2f221a9df69e38c3864f8e6aac929d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_079f545208b3d46576e3eb7eea7bbed069c07835\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-25.0.1_1115a8af1419d3b397b15a9be79f466d515f2f7f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_b4e83b712f9d06fc21c35bc7cdbba39f10b844ee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="53813c3baaffe5672553c2a2f31ac4aefdb89dda">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fc96f0f5391dfbb047c2faed8e02b7e52793172e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_3207835ef231fc17735389244b9ed22016c11bef\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_c366fb4a6d2cdf9d05b98b4e1aa556e61748dcba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_18bdc0c8c5a0d751958ca4640d0cb372c511a24d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_acab78dc0bc14a3c51ccdcb2a0ac9f04eff9cdd5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_fe120ea1ca04dd8c31712f19b3dfe6054772e649\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_be85d57966f025353aa9dddd81562f5e180a525b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_0799bf14c5d73cc56973d7c0d2407410b68cc2bc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_f6b73923c73111b5951307b9340af82eb29078f3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_2c96994a881fa57709564d17a916c29ed1208538\classes.dex" />
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_84b55ddd580dfc5448ebe9afc79dc0e4235f2138.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d06b37576c32a4c20ae1c32a660a98806aff6079\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_72856207edeb2c887355e9a7916937ba80643ac7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_eab5ad5e79548a6c3b6ac7da48f58d614a498042\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\amit porat\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\amit porat\AndroidStudioProjects\android-Camera2Video\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_0a1554c65ac497fb5ddbf961d5c88eb758ab11b0\classes.dex" />
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_b43e23e3d69d7cd2924d237a0e26a24b632edbec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_651db86eddeb305bb7821a13cf491453afd806ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_33570a340fcca6c8a7807e65f0e72bdfbf4c11dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.1_12435e022bbb82d1066b912eb86455bf6c31470c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_763d77ebebc4b2cd8519b0ef6a7a12146fa70c82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_c1ecf2520f8b46d6217f1b3cfb10ea7a78fe2369.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_58f46f5c0cf35ca6ae5a2c71243458d56f2afcaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_7d82d1bd18c1cc0573ce7e086b81a6295cfb97c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-v13-25.0.1_40f76ef427ca2e8128cd9fbaa3e4a9dc6013212a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_fd64961e3f06b03a92ba7b5881d9161481d45eb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_0b8b6f8731ab99e3ff4a42ebc609794836f13283.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_0b5c917525084e6f9a1646a3920a982e8c979143.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_275233d760ed974f969ff0703c346ec2e680fe9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_b29f9819ed237b417092ef0a949cb93b33e53406.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_6ae754afca6725e0e292299901f852a1d49b60fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_f2b79234e6466bdfa1a0ab46d3987f3545605e66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_7c1757ba3ef613c9998d359751d67123b362fe6f.jar" />
     </item>
 
 </items>

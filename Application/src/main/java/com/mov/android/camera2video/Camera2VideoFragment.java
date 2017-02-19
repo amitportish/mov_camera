@@ -104,6 +104,10 @@ public class Camera2VideoFragment extends Fragment
     private CountDownAnimation mCountDownAnimation;
 
     private CountDownTimer mCountDownTimer;
+
+
+    private TimerView mTimerView;
+
     /**
      * An {@link AutoFitTextureView} for camera preview.
      */
@@ -135,7 +139,7 @@ public class Camera2VideoFragment extends Fragment
         @Override
         public void onSurfaceTextureAvailable(SurfaceTexture surfaceTexture,
                                               int width, int height) {
-            openCamera(width, height);
+            openCamera(width, height, mIsFrontCamera);
         }
 
         @Override
@@ -332,6 +336,7 @@ public class Camera2VideoFragment extends Fragment
             }
         };
 
+        mTimerView = (TimerView) getView().findViewById(R.id.timer);
 
     }
 
@@ -340,7 +345,7 @@ public class Camera2VideoFragment extends Fragment
         super.onResume();
         startBackgroundThread();
         if (mTextureView.isAvailable()) {
-            openCamera(mTextureView.getWidth(), mTextureView.getHeight());
+            openCamera(mTextureView.getWidth(), mTextureView.getHeight(),mIsFrontCamera);
         } else {
             mTextureView.setSurfaceTextureListener(mSurfaceTextureListener);
         }
@@ -359,6 +364,7 @@ public class Camera2VideoFragment extends Fragment
     public void onCountDownEnd(CountDownAnimation animation) {
         startRecordingVideo();
         mCountDownTimer.start();
+        mTimerView.start(mDuration / 1000);
     }
 /******
     @Override
@@ -471,7 +477,7 @@ public class Camera2VideoFragment extends Fragment
     /**
      * Tries to open a {@link CameraDevice}. The result is listened by `mStateCallback`.
      */
-    private void openCamera(int width, int height) {
+    private void openCamera(int width, int height, boolean isFront) {
         if (!hasPermissionsGranted(VIDEO_PERMISSIONS)) {
             requestVideoPermissions();
             return;
@@ -486,7 +492,18 @@ public class Camera2VideoFragment extends Fragment
             if (!mCameraOpenCloseLock.tryAcquire(2500, TimeUnit.MILLISECONDS)) {
                 throw new RuntimeException("Time out waiting to lock camera opening.");
             }
-            String cameraId = manager.getCameraIdList()[0];
+            String[] cameras = manager.getCameraIdList();
+            String cameraId = "";
+            for (String cameraId_ : cameras)
+            {
+                CameraCharacteristics cameraCharacteristics = manager.getCameraCharacteristics(cameraId_);
+                if ((isFront && cameraCharacteristics.get(CameraCharacteristics.LENS_FACING) == CameraCharacteristics.LENS_FACING_FRONT) ||
+                    (!isFront && cameraCharacteristics.get(CameraCharacteristics.LENS_FACING) == CameraCharacteristics.LENS_FACING_BACK)) {
+                    cameraId = cameraId_;
+                    break;
+                }
+            }
+
 
             // Choose the sizes for camera preview and video recording
             CameraCharacteristics characteristics = manager.getCameraCharacteristics(cameraId);

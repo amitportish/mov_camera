@@ -17,5 +17,5 @@
 
 <resources>
 
-
+    <color name="timer_circle">#2ebfca</color>
 </resources>
