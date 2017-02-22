@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\amit porat\\AndroidStudioProjects\\android-Camera2Video\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "C:\\Users\\amit porat\\AndroidStudioProjects\\android-Camera2Video\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\AmitPorat\\AndroidStudioProjects\\mov_camera\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tile.9.png",
+        "source": "C:\\Users\\AmitPorat\\AndroidStudioProjects\\mov_camera\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
     },
     {
-        "merged": "C:\\Users\\amit porat\\AndroidStudioProjects\\android-Camera2Video\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tile.9.png",
-        "source": "C:\\Users\\amit porat\\AndroidStudioProjects\\android-Camera2Video\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+        "merged": "C:\\Users\\AmitPorat\\AndroidStudioProjects\\mov_camera\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\AmitPorat\\AndroidStudioProjects\\mov_camera\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\amit porat\\AndroidStudioProjects\\android-Camera2Video\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_info.png",
-        "source": "C:\\Users\\amit porat\\AndroidStudioProjects\\android-Camera2Video\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_info.png"
+        "merged": "C:\\Users\\AmitPorat\\AndroidStudioProjects\\mov_camera\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_info.png",
+        "source": "C:\\Users\\AmitPorat\\AndroidStudioProjects\\mov_camera\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_info.png"
     }
 ]
