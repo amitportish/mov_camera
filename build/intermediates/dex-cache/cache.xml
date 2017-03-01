@@ -57,21 +57,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_c1ecf2520f8b46d6217f1b3cfb10ea7a78fe2369.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
         <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_58f46f5c0cf35ca6ae5a2c71243458d56f2afcaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\AmitPorat\AndroidStudioProjects\mov_camera\Application\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_c1ecf2520f8b46d6217f1b3cfb10ea7a78fe2369.jar" />
     </item>
     <item
         is-multidex="false"
