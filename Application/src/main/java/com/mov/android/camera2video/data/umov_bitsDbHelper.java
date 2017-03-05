@@ -45,6 +45,14 @@ public class umov_bitsDbHelper extends SQLiteOpenHelper {
                 BitsEntry.COLUMN_SHORT_DESC + " TEXT NOT NULL, " +
                 BitsEntry.COLUMN_TYPE + " TINYINT NOT NULL, " +
                 BitsEntry.COLUMN_CAMERA_LAYOUT + " TINYINT NOT NULL " +
+                BitsEntry.COLUMN_CAMERA_DIRECTION + " TINYINT NOT NULL " +
+                BitsEntry.COLUMN_DURATION + " INTEGER NOT NULL " +
+                BitsEntry.COLUMN_ICON_URI + " TEXT, " +
+                BitsEntry.COLUMN_TEXT_INSTRUCTION + " TEXT, " +
+                BitsEntry.COLUMN_VIDEO_INSTRUCTION_URI+ " TEXT, " +
+                BitsEntry.COLUMN_KARAOKE_AUDIO_URI + " TEXT, " +
+                BitsEntry.COLUMN_KARAOKE_LYRICS + " TEXT, " +
+                BitsEntry.COLUMN_AUDIO_INSTRUCTION_URI + " TEXT, " +
                 " );";
 
 
