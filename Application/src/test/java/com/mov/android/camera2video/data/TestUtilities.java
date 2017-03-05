@@ -10,7 +10,6 @@ import android.os.Handler;
 import android.os.HandlerThread;
 import android.test.AndroidTestCase;
 
-import com.example.android.sunshine.app.utils.PollingCheck;
 
 import java.util.Map;
 import java.util.Set;
@@ -46,16 +45,14 @@ public class TestUtilities extends AndroidTestCase {
      */
     static ContentValues createUMovBitValues() {
         ContentValues bitValues = new ContentValues();
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_LOC_KEY, locationRowId);
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_DATE, TEST_DATE);
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_DEGREES, 1.1);
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_HUMIDITY, 1.2);
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_PRESSURE, 1.3);
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_MAX_TEMP, 75);
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_MIN_TEMP, 65);
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_SHORT_DESC, "Asteroids");
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_WIND_SPEED, 5.5);
-        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_WEATHER_ID, 321);
+        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_NAME, "hello");
+        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_SHORT_DESC, "Welcome Greeting");
+        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_TYPE, umov_bitsContract.BitsEntry.TEXT_INSTRUCTION_TYPE);
+        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_CAMERA_LAYOUT, umov_bitsContract.BitsEntry.CameraOriantion.LANDSCAPE.getValue());
+        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_CAMERA_DIRECTION, umov_bitsContract.BitsEntry.CameraDirection.FRONT.getValue());
+        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_DURATION, 2000);
+        bitValues.put(umov_bitsContract.BitsEntry.COLUMN_TEXT_INSTRUCTION,"Welcome to uMovie." + System.lineSeparator() + "Look at the camera and say your greerting!" +
+                System.lineSeparator() + "Hi - Hello - Whats up? - Cowabunga!  - Hip-hip  - Cheers...Ready?");
 
         return bitValues;
     }
@@ -114,7 +111,7 @@ public class TestUtilities extends AndroidTestCase {
         public void onChange(boolean selfChange, Uri uri) {
             mContentChanged = true;
         }
-
+/***
         public void waitForNotificationOrFail() {
             // Note: The PollingCheck class is taken from the Android CTS (Compatibility Test Suite).
             // It's useful to look at the Android CTS source for ideas on how to test your Android
@@ -128,6 +125,7 @@ public class TestUtilities extends AndroidTestCase {
             }.run();
             mHT.quit();
         }
+ ****/
     }
 
     static TestContentObserver getTestContentObserver() {
