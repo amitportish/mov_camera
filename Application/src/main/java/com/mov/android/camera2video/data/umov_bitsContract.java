@@ -26,6 +26,25 @@ public class umov_bitsContract {
     /* Inner class that defines the contents of the weather table */
     public static final class BitsEntry implements BaseColumns {
 
+        public static final int TEXT_INSTRUCTION_TYPE = 0x01;
+        public static final int AUDIO_INSTRUCTION_TYPE = 0x02;
+        public static final int VIDEO_INSTRUCTION_TYPE = 0x04;
+        public static final int KARAOKE_TYPE = 0x08;
+
+        public enum CameraOriantion{ LANDSCAPE(0) , PORTRAIT(1),  BOTH(2);
+            private final int value;
+            CameraOriantion(int val) { this.value = val;  }
+            public int getValue() {return value;}
+
+        };
+
+        public enum CameraDirection{
+            FRONT(0) , BACK(1),  BOTH(2);
+            private final int value;
+            CameraDirection(int val) { this.value = val;  }
+            public int getValue() {return value;}
+        };
+
         public static final String TABLE_NAME = "umov_bits";
 
         // The name of the bit
