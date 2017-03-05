@@ -56,7 +56,7 @@ public class umov_bitsContract {
         public static final String COLUMN_VIDEO_INSTRUCTION_URI = "video_instruction_uri";
 
         //KRK_AUDIO_URI          TEXT       , --audio background for karaoke type
-        public static final String COLUMN_KRK_AUDIO_URI = "karaoke_audio_uri";
+        public static final String COLUMN_KARAOKE_AUDIO_URI = "karaoke_audio_uri";
 
         //KRK_LYRICS             TEXT       , --Lyrics with time stamps for karaoke
         public static final String COLUMN_KARAOKE_LYRICS = "karaoke_lyrics";
